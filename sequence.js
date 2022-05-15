@@ -41,6 +41,7 @@ function incrementPointer() {
 function getTurn() {
   if (pointer < sequence.length)
     return sequence[pointer]
+
   return false
 }
 
@@ -224,96 +225,112 @@ function determineSequence(mode, captains) {
       sequence = [
         {
           turn: 1,
+          team: 1,
           audio: 'teamOneBan',
           player: captains[0],
           selection: 0
         },
         {
           turn: 2,
+          team: 1,
           audio: 'teamTwoBan',
           player: captains[1],
           selection: 0
         },
         {
           turn: 3,
+          team: 1,
           audio: 'teamOneBan',
           player: captains[0],
           selection: 0
         },
         {
           turn: 4,
+          team: 2,
           audio: 'teamTwoBan',
           player: captains[1],
           selection: 0
         },
         {
           turn: 5,
+          team: 1,
           audio: 'teamOnePick',
           player: captains[0],
           selection: 1
         },
         {
           turn: 6,
+          team: 2,
           audio: 'teamTwoPick',
           player: captains[1],
           selection: 1
         },
         {
           turn: 7,
+          team: 1,
           audio: 'teamOnePick',
           player: captains[0],
           selection: 1
         },
         {
           turn: 8,
+          team: 2,
           audio: 'teamTwoPick',
           player: captains[1],
           selection: 1
         },
         {
           turn: 9,
+          team: 1,
           audio: 'teamTwoBan',
           player: captains[1],
           selection: 0
         },
         {
           turn: 10,
+          team: 2,
           audio: 'teamOneBan',
           player: captains[0],
           selection: 0
         },
         {
           turn: 11,
+          team: 1,
           audio: 'teamTwoBan',
           player: captains[1],
           selection: 0
         },
         {
           turn: 12,
+          team: 2,
           audio: 'teamOneBan',
           player: captains[0],
           selection: 0
         },
         {
           turn: 13,
+          team: 1,
           audio: 'teamTwoPick',
           player: captains[1],
           selection: 1
         },
         {
           turn: 14,
+          team: 2,
           audio: 'teamOnePick',
           player: captains[0],
           selection: 1
         },
         {
           turn: 15,
+          team: 1,
           audio: 'teamTwoPick',
           player: captains[1],
           selection: 1
         },
         {
           turn: 16,
+          team: 2,
           audio: 'teamOnePick',
           player: captains[0],
           selection: 1
