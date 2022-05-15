@@ -232,7 +232,7 @@ function determineSequence(mode, captains) {
         },
         {
           turn: 2,
-          team: 1,
+          team: 2,
           audio: 'teamTwoBan',
           player: captains[1],
           selection: 0
