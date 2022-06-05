@@ -79,6 +79,7 @@ function determineSequence(mode, captains) {
       sequence = [
         {
           turn: 1,
+          team: 1,
           audio: 'teamOneBan',
           player: captains[0],
           selection: 0
@@ -92,6 +93,7 @@ function determineSequence(mode, captains) {
         },
         {
           turn: 3,
+          team: 1,
           audio: 'teamOnePick',
           player: captains[0],
           selection: 1

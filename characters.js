@@ -159,9 +159,14 @@ const characters = [
     name: 'Xinyan',
     vision: 'Pyro'
   },
+  
   {
     name: 'Yanfei',
     vision: 'Pyro'
+  },
+  {
+    name: 'Yelan',
+    vision: 'Hydro'
   },
   {
     name: 'Yoimiya',
