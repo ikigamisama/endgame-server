@@ -5,7 +5,6 @@ const { userJoin, getUser, getAllUsersInRoom, getHostInRoom, getAllPlayersInRoom
 const { resetSequence, setRerollStatus, getRerollStatus, setCaptains, getCaptains, incrementPointer, getTurn, determineSequence } = require('./sequence.js')
 const crypto = require("crypto")
 const { key } = require('./key.js')
-const { Console } = require('console')
 const io = require('socket.io')(server, {
   cors: {
     origin: '*',
@@ -102,8 +101,6 @@ io.on('connection', (socket) => {
     incrementPointer()
     const turn = getTurn()
     const host = getHostInRoom(room)
-    console.log(turn);
-    console.log(host);
     if (turn) {
       io.sockets.in(turn.player.room).emit('announceSelect', { id: turn.player.id, name: turn.player.username, type: turn.selection, audio: turn.audio })
       io.to(turn.player.id).emit('select', turn.selection)
