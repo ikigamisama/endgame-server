@@ -19,9 +19,6 @@ app.get('/', (req, res) => {
 
 io.on('connection', (socket) => {
   
-  // socket.on('reconnecting', (data) => {
-  //   socket.emit('reconnectingClient', data)
-  // })
   socket.on('createRoom', (data) => {
     if (key === data.key) {
       var room = crypto.randomBytes(10).toString('hex')

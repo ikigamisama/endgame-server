@@ -88,6 +88,10 @@ const characters = [
     vision: 'Electro'
   },
   {
+    name: 'Kuki Shinobu',
+    vision: 'Electro'
+  },
+  {
     name: 'Lisa',
     vision: 'Electro'
   },
