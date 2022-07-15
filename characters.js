@@ -128,6 +128,10 @@ const characters = [
     vision: 'Anemo'
   },
   {
+    name: 'Shikanoin Heizou',
+    vision: 'Anemo'
+  },
+  {
     name: 'Sucrose',
     vision: 'Anemo'
   },
