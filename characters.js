@@ -32,6 +32,10 @@ const characters = [
     vision: 'Cryo'
   },
   {
+    name: 'Collei',
+    vision: 'Dendro'
+  },
+  {
     name: 'Diluc',
     vision: 'Pyro'
   },
@@ -142,6 +146,10 @@ const characters = [
   {
     name: 'Thoma',
     vision: 'Pyro'
+  },
+  {
+    name: 'Tignari',
+    vision: 'Dendro'
   },
   {
     name: 'Traveler',
